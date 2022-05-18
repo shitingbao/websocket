@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	userFlag = "protocol" // Sec-WebSocket-Protocol 的标识，可自定义，可以写在配置文件中
+	userFlag = "protocol" // Sec-WebSocket-Protocol 的标识，可自定义，可以写在配置文件中，对应内容应该写入唯一标识符
 	sendCap  = 256        // 发送的消息容量大小
 )
 
